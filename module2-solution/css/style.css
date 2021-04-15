@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	font-color: black;
+	font-size: 100%;
+}
+
+#title {
+	font-size: 175%;
+	color: green;
+	text-align: center;
+	margin: 10px;
+}
+
+.subtitle {
+	font-size: 125%;
+	padding: 5px;
+	text-align: center;
+	border: solid 1px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+.container {
+	position: relative;
+	padding: 1em;
+	padding-top: 2em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: green;
+}
+
+@media (min-width: 992px) {
+	.laptop {
+		float: left;
+		width: 31%;
+		margin: 1%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.tablet-6 {
+		float: left;
+		width: 48%;
+		margin: 1%;
+	}
+	.tablet-12 {
+		float:left;
+		width: 98%;
+		margin: 1%;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.phone {
+		float: left;
+		width: 98%;
+		margin: 1%;
+	}
+}
