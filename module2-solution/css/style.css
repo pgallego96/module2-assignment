@@ -7,7 +7,7 @@
 
 #title {
 	font-size: 175%;
-	color: green;
+	color: black;
 	text-align: center;
 	margin: 10px;
 }
@@ -20,15 +20,46 @@
 	position: absolute;
 	top: 2px;
 	right: 2px;
+	width: 10em;
 }
 
 .container {
 	position: relative;
 	padding: 1em;
-	padding-top: 2em;
+	padding-top: 2.5em;
 	border-width: 1px;
 	border-style: solid;
-	border-color: green;
+	border-color: black;
+	min-height: 150px;
+	max-height: 250px;
+}
+
+.scroller {
+	overflow: auto;
+}
+
+#b1 {
+	background-color: #66c2a5;
+}
+
+#b2 {
+	background-color: #fc8d62;
+}
+
+#b3 {
+	background-color: #8da0cb;
+}
+
+#s1 {
+	background-color: #e78ac3;
+}
+
+#s2 {
+	background-color: #a6d854;
+}
+
+#s3 {
+	background-color: #ffd92f;
 }
 
 @media (min-width: 992px) {
